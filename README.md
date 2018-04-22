@@ -12,4 +12,4 @@
 1. Install [nswag](https://github.com/RSuter/NSwag) using npm by running `npm install -g nswag` from the commandline
 1. Install the [.NET Core Runtime v2.0.7](https://www.microsoft.com/net/download/all)
 1. Run the api server locally
-1. Run the following command in the commandline `nswag swagger2tsclient /input:http://localhost:9001/swagger.json /output:Client.ts /template:aurelia /runtime:NetCore20`
+1. Run the following command in the commandline `nswag swagger2tsclient /input:http://localhost:9001/swagger.json /output:client.ts /template:aurelia /runtime:NetCore20`
