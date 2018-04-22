@@ -1,8 +1,10 @@
 from flask import Flask, request
 from flask_restplus import Api, Resource, fields
+from flask_cors import CORS
 from utilities import send_text
 
 app = Flask(__name__)
+CORS(app)
 api = Api(app, version='1.0', title='Our Easy Registry API')
 
 sms_ns = api.namespace('sms', description='Send and recieve SMS texts')
