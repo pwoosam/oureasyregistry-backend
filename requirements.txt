@@ -2,3 +2,4 @@ Flask==0.12
 flask-restplus>=0.10.1
 flask-cors>=3.0.2
 telesign==2.2.2
+peewee>=3.2.5
