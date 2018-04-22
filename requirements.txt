@@ -1,2 +1,3 @@
 Flask==0.12
+flask-restplus>=0.10.1
 telesign==2.2.2
