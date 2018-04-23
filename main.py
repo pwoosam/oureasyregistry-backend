@@ -90,7 +90,7 @@ class DB(Resource):
         body = request.get_json()
         name = body.get('name')
         is_purchased = body.get('is_purchased')
-        item = Item.select().where(Item.name == name)
+        item = Item.select().where(Item.name == name).get()
         item.is_purchased = is_purchased
         item.save()
 
